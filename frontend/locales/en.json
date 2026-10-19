@@ -523,7 +523,9 @@
     "noReceivedStreams": "No received streams",
     "payer": "Payer",
     "totalDeposit": "Total Deposit",
-    "claim": "Claim {amount}"
+    "claim": "Claim {amount}",
+    "pageTitle": "Streaming Payments",
+    "pageSubtitle": "Open, view, claim, and close Soroban streaming payment contracts."
   },
   "scheduledPayments": {
     "failedToLoad": "Failed to load scheduled payments",
@@ -556,7 +558,9 @@
     "nextRun": "Next run",
     "pause": "Pause",
     "resume": "Resume",
-    "cancel": "Cancel"
+    "cancel": "Cancel",
+    "pageTitle": "Scheduled Payments",
+    "connectPrompt": "Connect your wallet to create and manage recurring payments."
   },
   "multiSigSign": {
     "feeBumpUnsupported": "FeeBump transactions are not supported.",
@@ -1315,5 +1319,62 @@
     "tryAgain": "Try again",
     "viewOnStellarExpert": "View on Stellar Expert",
     "viewTxOnStellarExpert": "View transaction on Stellar Expert"
+  },
+  "routeAnnouncer": {
+    "navigatedTo": "Navigated to {title}"
+  },
+  "pages": {
+    "home": {
+      "title": "Home | Stellar MicroPay"
+    },
+    "dashboard": {
+      "title": "Dashboard | Stellar MicroPay"
+    },
+    "trade": {
+      "title": "Trade | Stellar MicroPay"
+    },
+    "scheduledPayments": {
+      "title": "Scheduled Payments | Stellar MicroPay"
+    },
+    "transactions": {
+      "title": "Transactions | Stellar MicroPay"
+    },
+    "leaderboard": {
+      "title": "Community Tips Leaderboard | Stellar MicroPay"
+    },
+    "network": {
+      "title": "Network Status | Stellar MicroPay"
+    },
+    "settings": {
+      "title": "Settings | Stellar MicroPay"
+    },
+    "contacts": {
+      "title": "Contacts | Stellar MicroPay"
+    },
+    "pay": {
+      "title": "Pay a Payment Link | Stellar MicroPay"
+    },
+    "request": {
+      "title": "Request Payment | Stellar MicroPay"
+    },
+    "paymentRequestGenerator": {
+      "title": "Payment Request Generator | Stellar MicroPay"
+    },
+    "streams": {
+      "title": "Streaming Payments | Stellar MicroPay"
+    },
+    "issueToken": {
+      "title": "Issue a Token | Stellar MicroPay"
+    },
+    "multiSigSign": {
+      "title": "Sign Multi-Signature Transaction | Stellar MicroPay"
+    },
+    "notFound": {
+      "title": "Page Not Found | Stellar MicroPay"
+    },
+    "tip": {
+      "title": "Tip {username} | Stellar MicroPay",
+      "fallbackTitle": "Tip Creator | Stellar MicroPay"
+    }
   }
 }

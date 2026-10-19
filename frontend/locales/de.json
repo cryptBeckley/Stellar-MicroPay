@@ -446,7 +446,7 @@
     "addressCopied": "Adresse kopiert",
     "importFailed": "Import fehlgeschlagen: fehlerhafte JSON-Datei"
   },
-"pwaUpdate": {
+  "pwaUpdate": {
     "available": "Eine neue Version ist verfügbar",
     "reload": "Neu laden"
   },
@@ -523,7 +523,9 @@
     "noReceivedStreams": "Keine empfangenen Streams",
     "payer": "Zahler",
     "totalDeposit": "Gesamteinzahlung",
-    "claim": "{amount} einlösen"
+    "claim": "{amount} einlösen",
+    "pageTitle": "Streaming-Zahlungen",
+    "pageSubtitle": "Öffne, sieh, beanspruche und schließe Soroban-Streaming-Zahlungsverträge."
   },
   "scheduledPayments": {
     "failedToLoad": "Geplante Zahlungen konnten nicht geladen werden",
@@ -556,7 +558,9 @@
     "nextRun": "Nächster Lauf",
     "pause": "Pausieren",
     "resume": "Fortsetzen",
-    "cancel": "Abbrechen"
+    "cancel": "Abbrechen",
+    "pageTitle": "Geplante Zahlungen",
+    "connectPrompt": "Verbinde deine Wallet, um wiederkehrende Zahlungen zu erstellen und zu verwalten."
   },
   "multiSigSign": {
     "feeBumpUnsupported": "FeeBump-Transaktionen werden nicht unterstützt.",
@@ -584,7 +588,7 @@
     "notNow": "Jetzt nicht",
     "offlineBanner": "Du bist offline — die Daten sind möglicherweise nicht aktuell."
   },
-"issueToken": {
+  "issueToken": {
     "amountIssued": "Ausgegebener Betrag",
     "amountToIssue": "Betrag an {asset} zum Ausgeben",
     "assetCode": "Asset-Code",
@@ -707,7 +711,7 @@
     "topSenders": "Top-Sender",
     "totalXlmTipped": "Insgesamt getippte XLM"
   },
-"network": {
+  "network": {
     "accountsUnit": "Konten",
     "activeAccounts": "Aktive Konten",
     "activeAccountsDetail": "Eindeutige Konten im Ledger {ledger}",
@@ -824,7 +828,7 @@
     "noPublicPage": "@{username} hat noch keine öffentliche Trinkgeld-Seite.",
     "notFoundTitle": "Creator nicht gefunden"
   },
-"paymentStatus": {
+  "paymentStatus": {
     "tracker": "Zahlungsverfolgung",
     "complete": "Abgeschlossen",
     "paymentFailed": "Zahlung fehlgeschlagen",
@@ -935,7 +939,7 @@
     "placeBuyOrder": "Kauforder platzieren",
     "placeSellOrder": "Verkaufsorder platzieren"
   },
-"turrets": {
+  "turrets": {
     "connectWalletFirst": "Verbinde deine Wallet, um eine Automatisierung bereitzustellen.",
     "deploymentFailed": "Bereitstellung fehlgeschlagen.",
     "connectWalletToConfigure": "Verbinde deine Wallet, um Automatisierungen zu konfigurieren.",
@@ -1041,7 +1045,7 @@
     "submitting": "Wird eingereicht...",
     "submitTransaction": "Transaktion einreichen"
   },
-"receipts": {
+  "receipts": {
     "loading": "Belege werden geladen",
     "tryAgain": "Erneut versuchen",
     "empty": "Noch keine Belege geprägt.",
@@ -1101,7 +1105,7 @@
     "sendTipSuccessTitle": "Trinkgeld an @{username} gesendet!",
     "sendTipSuccessMessage": "{amount} ist unterwegs."
   },
-"aiAssistant": {
+  "aiAssistant": {
     "unavailable": "Der KI-Assistent ist derzeit nicht verfügbar. Bitte fülle die Zahlungsdaten manuell aus.",
     "title": "KI-Zahlungsassistent",
     "closeAssistant": "Assistent schließen",
@@ -1190,7 +1194,7 @@
     "ledger": "Ledger Nr. {ledger}",
     "lastEvent": "Letztes Ereignis empfangen {time}"
   },
-"creatorTips": {
+  "creatorTips": {
     "loadError": "Trinkgelder konnten nicht geladen werden. Stelle sicher, dass du einen registrierten Benutzernamen hast.",
     "setupProfile": "Richte dein Creator-Profil ein",
     "registerPrompt": "Registriere einen Benutzernamen, um öffentliche Trinkgeld-Seiten zu aktivieren und empfangene Trinkgelder zu verfolgen.",
@@ -1315,5 +1319,62 @@
     "tryAgain": "Erneut versuchen",
     "viewOnStellarExpert": "Auf Stellar Expert ansehen",
     "viewTxOnStellarExpert": "Transaktion auf Stellar Expert ansehen"
+  },
+  "routeAnnouncer": {
+    "navigatedTo": "Navigiert zu {title}"
+  },
+  "pages": {
+    "home": {
+      "title": "Startseite | Stellar MicroPay"
+    },
+    "dashboard": {
+      "title": "Dashboard | Stellar MicroPay"
+    },
+    "trade": {
+      "title": "Handel | Stellar MicroPay"
+    },
+    "scheduledPayments": {
+      "title": "Geplante Zahlungen | Stellar MicroPay"
+    },
+    "transactions": {
+      "title": "Transaktionen | Stellar MicroPay"
+    },
+    "leaderboard": {
+      "title": "Community-Trinkgeld-Rangliste | Stellar MicroPay"
+    },
+    "network": {
+      "title": "Netzwerkstatus | Stellar MicroPay"
+    },
+    "settings": {
+      "title": "Einstellungen | Stellar MicroPay"
+    },
+    "contacts": {
+      "title": "Kontakte | Stellar MicroPay"
+    },
+    "pay": {
+      "title": "Zahlungslink bezahlen | Stellar MicroPay"
+    },
+    "request": {
+      "title": "Zahlung anfordern | Stellar MicroPay"
+    },
+    "paymentRequestGenerator": {
+      "title": "Zahlungsanfrage-Generator | Stellar MicroPay"
+    },
+    "streams": {
+      "title": "Streaming-Zahlungen | Stellar MicroPay"
+    },
+    "issueToken": {
+      "title": "Token ausgeben | Stellar MicroPay"
+    },
+    "multiSigSign": {
+      "title": "Multi-Signatur-Transaktion signieren | Stellar MicroPay"
+    },
+    "notFound": {
+      "title": "Seite nicht gefunden | Stellar MicroPay"
+    },
+    "tip": {
+      "title": "Trinkgeld an {username} | Stellar MicroPay",
+      "fallbackTitle": "Trinkgeld an den Creator | Stellar MicroPay"
+    }
   }
 }

@@ -523,7 +523,9 @@
     "noReceivedStreams": "لا توجد تدفقات مستلمة",
     "payer": "الدافع",
     "totalDeposit": "إجمالي الإيداع",
-    "claim": "المطالبة بـ {amount}"
+    "claim": "المطالبة بـ {amount}",
+    "pageTitle": "مدفوعات البث المستمر",
+    "pageSubtitle": "افتح واعرض واحصل على عقود دفع البث المستمر من Soroban وأغلقها."
   },
   "scheduledPayments": {
     "failedToLoad": "فشل تحميل المدفوعات المجدولة",
@@ -556,7 +558,9 @@
     "nextRun": "التشغيل القادم",
     "pause": "إيقاف مؤقت",
     "resume": "استئناف",
-    "cancel": "إلغاء"
+    "cancel": "إلغاء",
+    "pageTitle": "المدفوعات المجدولة",
+    "connectPrompt": "صل محفظتك لإنشاء المدفوعات المتكررة وإدارتها."
   },
   "multiSigSign": {
     "feeBumpUnsupported": "المعاملات من نوع FeeBump غير مدعومة.",
@@ -1315,5 +1319,62 @@
     "tryAgain": "حاول مرة أخرى",
     "viewOnStellarExpert": "عرض على Stellar Expert",
     "viewTxOnStellarExpert": "عرض المعاملة على Stellar Expert"
+  },
+  "routeAnnouncer": {
+    "navigatedTo": "الانتقال إلى {title}"
+  },
+  "pages": {
+    "home": {
+      "title": "الرئيسية | Stellar MicroPay"
+    },
+    "dashboard": {
+      "title": "لوحة التحكم | Stellar MicroPay"
+    },
+    "trade": {
+      "title": "التداول | Stellar MicroPay"
+    },
+    "scheduledPayments": {
+      "title": "المدفوعات المجدولة | Stellar MicroPay"
+    },
+    "transactions": {
+      "title": "المعاملات | Stellar MicroPay"
+    },
+    "leaderboard": {
+      "title": "ترتيب الإكراميات المجتمعية | Stellar MicroPay"
+    },
+    "network": {
+      "title": "حالة الشبكة | Stellar MicroPay"
+    },
+    "settings": {
+      "title": "الإعدادات | Stellar MicroPay"
+    },
+    "contacts": {
+      "title": "جهات الاتصال | Stellar MicroPay"
+    },
+    "pay": {
+      "title": "ادفع عبر رابط دفع | Stellar MicroPay"
+    },
+    "request": {
+      "title": "اطلب دفعًا | Stellar MicroPay"
+    },
+    "paymentRequestGenerator": {
+      "title": "مولّد طلبات الدفع | Stellar MicroPay"
+    },
+    "streams": {
+      "title": "مدفوعات البث المستمر | Stellar MicroPay"
+    },
+    "issueToken": {
+      "title": "إصدار رمز | Stellar MicroPay"
+    },
+    "multiSigSign": {
+      "title": "توقيع معاملة متعددة التواقيع | Stellar MicroPay"
+    },
+    "notFound": {
+      "title": "الصفحة غير موجودة | Stellar MicroPay"
+    },
+    "tip": {
+      "title": "إكرامية لـ {username} | Stellar MicroPay",
+      "fallbackTitle": "إكرامية للمبدع | Stellar MicroPay"
+    }
   }
 }

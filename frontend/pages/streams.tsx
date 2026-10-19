@@ -187,8 +187,8 @@ export default function StreamsPage() {
         <title>{t("pages.streams.title")}</title>
       </Head>
       <div className="max-w-6xl mx-auto px-4 py-8">
-      <h1 className="font-display text-3xl font-bold text-white mb-2">Streaming Payments</h1>
-      <p className="text-slate-400 mb-8">Open, view, claim, and close Soroban streaming payment contracts.</p>
+      <h1 className="font-display text-3xl font-bold text-white mb-2">{t("streams.pageTitle")}</h1>
+      <p className="text-slate-400 mb-8">{t("streams.pageSubtitle")}</p>
 
       {error && (
         <div className="mb-6 p-4 rounded-xl bg-red-500/10 border border-red-500/20 text-red-400">

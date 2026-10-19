@@ -523,7 +523,9 @@
     "noReceivedStreams": "No hay flujos recibidos",
     "payer": "Pagador",
     "totalDeposit": "Depósito total",
-    "claim": "Reclamar {amount}"
+    "claim": "Reclamar {amount}",
+    "pageTitle": "Pagos en streaming",
+    "pageSubtitle": "Abre, consulta, reclama y cierra contratos de pago en streaming de Soroban."
   },
   "scheduledPayments": {
     "failedToLoad": "No se pudieron cargar los pagos programados",
@@ -556,7 +558,9 @@
     "nextRun": "Próxima ejecución",
     "pause": "Pausar",
     "resume": "Reanudar",
-    "cancel": "Cancelar"
+    "cancel": "Cancelar",
+    "pageTitle": "Pagos programados",
+    "connectPrompt": "Conecta tu cartera para crear y gestionar pagos recurrentes."
   },
   "multiSigSign": {
     "feeBumpUnsupported": "Las transacciones FeeBump no son compatibles.",
@@ -1315,5 +1319,62 @@
     "tryAgain": "Inténtalo de nuevo",
     "viewOnStellarExpert": "Ver en Stellar Expert",
     "viewTxOnStellarExpert": "Ver la transacción en Stellar Expert"
+  },
+  "routeAnnouncer": {
+    "navigatedTo": "Navegado a {title}"
+  },
+  "pages": {
+    "home": {
+      "title": "Inicio | Stellar MicroPay"
+    },
+    "dashboard": {
+      "title": "Panel | Stellar MicroPay"
+    },
+    "trade": {
+      "title": "Operar | Stellar MicroPay"
+    },
+    "scheduledPayments": {
+      "title": "Pagos programados | Stellar MicroPay"
+    },
+    "transactions": {
+      "title": "Transacciones | Stellar MicroPay"
+    },
+    "leaderboard": {
+      "title": "Clasificación de propinas de la comunidad | Stellar MicroPay"
+    },
+    "network": {
+      "title": "Estado de la red | Stellar MicroPay"
+    },
+    "settings": {
+      "title": "Ajustes | Stellar MicroPay"
+    },
+    "contacts": {
+      "title": "Contactos | Stellar MicroPay"
+    },
+    "pay": {
+      "title": "Pagar un enlace de pago | Stellar MicroPay"
+    },
+    "request": {
+      "title": "Solicitar pago | Stellar MicroPay"
+    },
+    "paymentRequestGenerator": {
+      "title": "Generador de solicitudes de pago | Stellar MicroPay"
+    },
+    "streams": {
+      "title": "Pagos en streaming | Stellar MicroPay"
+    },
+    "issueToken": {
+      "title": "Emitir un token | Stellar MicroPay"
+    },
+    "multiSigSign": {
+      "title": "Firmar transacción multifirma | Stellar MicroPay"
+    },
+    "notFound": {
+      "title": "Página no encontrada | Stellar MicroPay"
+    },
+    "tip": {
+      "title": "Propina para {username} | Stellar MicroPay",
+      "fallbackTitle": "Propina para creador | Stellar MicroPay"
+    }
   }
 }
